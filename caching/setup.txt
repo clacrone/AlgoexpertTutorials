@@ -1,0 +1,6 @@
+Terminal 1:
+    node setup.js
+
+Browser:
+    http://localhost:3001/nocache/index.html
+    http://localhost:3001/withcache/index.html

@@ -1,0 +1,14 @@
+Terminal 1:
+    node server.js
+
+Terminal 2:
+    curl localhost:3001/memory/foo --header 'Content-Type: application/json' --data '{"data": "This is some data in memory."}'
+
+Terminal 3:
+    curl localhost:3001/memory/foo -w "\n"
+
+Terminal 4:
+    curl localhost:3001/disk/bar --header 'Content-Type: application/json' --data '{"data": "This is some data on disk."}'
+
+Terminal 4:
+    curl localhost:3001/disk/bar -w "\n"
