@@ -1,0 +1,9 @@
+nc = Netcat - Tool that allows you to read and write to network connections using certain protocols
+-l = listen
+127.0.0.1 = localhost
+
+Terminal 1:
+    nc -l 8082
+
+Terminal 2:
+    nc 127.0.0.1 8082
