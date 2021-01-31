@@ -1,0 +1,8 @@
+Terminal 1:
+    PORT=3000 node server.js
+
+Terminal 2:
+    PORT=3001 node server.js
+
+Terminal 3:
+    curl localhost:8082/hello

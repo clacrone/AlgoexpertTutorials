@@ -1,0 +1,11 @@
+Terminal 1:
+    node setup.js
+
+Terminal 2:
+    curl localhost:3000/hello
+
+The following assumes you have NGINX running as a reverse proxy. Its listening to 8082, 
+injecting a header 'systemsexpert-tutorial': 'true', and forwarding to port 3000
+
+Terminal 3:
+    curl localhost:8082/hello
