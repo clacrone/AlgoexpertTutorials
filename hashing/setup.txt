@@ -1,0 +1,2 @@
+Terminal 1:
+    node hashing_example.js
