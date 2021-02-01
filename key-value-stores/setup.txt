@@ -3,3 +3,6 @@ Terminal 1:
 
 Terminal 2:
     node server.js
+
+Browser
+    localhost:3003/withcache/index.html

@@ -1,0 +1,12 @@
+Terminal 1:
+    DATA_DIR=aedb_data_0 PORT=3000 node aedb.js
+
+Terminal 2:
+     DATA_DIR=aedb_data_1 PORT=3001 node aedb.js
+
+Terminal 3:
+     node aedb_proxy.js
+
+Terminal 4:
+     curl --header 'Content-Type: application/json' --data '{"data": "This is some data."}' localhost:8000/a
+     curl -w "\n" localhost:8000/a

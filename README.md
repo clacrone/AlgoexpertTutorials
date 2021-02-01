@@ -1,8 +1,10 @@
 # Tutorials
 Uses express.
 
+
 # Express
 npm install express
+
 
 # NGINX
 Install:
@@ -54,3 +56,7 @@ npm install redis
 
 Start Redis:
     redis-server
+
+
+# Axios
+npm install axios
