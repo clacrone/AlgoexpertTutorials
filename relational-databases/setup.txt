@@ -1,0 +1,11 @@
+Terminal 1:
+    psql testdb
+
+Terminal 2:
+    psql testdb
+
+- Run sample queries
+- Begin transaction
+- Run queries in different windows to see ACID properties SELECT * from balances;
+- Until transaction is COMMIT the state will vary based on session
+- Run indexes queries to see the speed of an index
