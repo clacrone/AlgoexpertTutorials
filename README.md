@@ -60,3 +60,6 @@ Start Redis:
 
 # Axios
 npm install axios
+
+# Etcd
+pip3 install etcd3
