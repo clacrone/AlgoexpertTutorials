@@ -4,7 +4,7 @@ Uses express.
 
 # Express
 npm install express
-
+npm install express-ws
 
 # NGINX
 Install:

@@ -1,0 +1,5 @@
+Terminal 1:
+    node server.js
+
+Terminal 2:
+    curl localhost:3000/static/new_feature.html

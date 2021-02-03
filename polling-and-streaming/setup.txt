@@ -1,0 +1,11 @@
+Terminal 1:
+    node server.js
+
+Terminal 2: 
+    (for i in `seq 1 10000`; do sleep 1; echo $i; done) | NAME=Bot node client.js
+
+Terminal 3:
+    MODE=stream NAME=Craig node client.js
+
+Terminal 4:
+    MODE=poll NAME=Megan node client.js

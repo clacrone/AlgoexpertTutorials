@@ -1,0 +1,5 @@
+Terminal 1:
+    node server.js
+
+Terminal 2:
+    curl -H 'user: antoine' http://localhost:3000/index.html

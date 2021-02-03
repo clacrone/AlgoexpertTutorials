@@ -1,0 +1,14 @@
+Terminal 1:
+    node server.js
+
+Terminal 2:
+    TOPIC_ID=stock_prices node subscriber.js
+
+Terminal 3:
+    TOPIC_ID=news_alerts node subscriber.js
+
+Terminal 4:
+    (for i in `seq 1 10000`; do sleep 1; echo New Stock Price; done) | NAME=STOCK_BROKER TOPIC_ID=stock_prices node publisher.js
+
+Terminal 5:
+    (for i in `seq 1 10000`; do sleep 1; echo Breaking News; done) | NAME=NEWS_ANCHOR TOPIC_ID=news_alerts node publisher.js
